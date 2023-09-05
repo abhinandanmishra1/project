@@ -1,0 +1,13 @@
+.bg {
+  background: url("./assets/images/bg.png");
+  background-size: 100% 100%;
+}
+
+.header-bg {
+  background: rgb(41, 41, 108);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 41, 108, 1) 5%,
+    rgba(21, 21, 59, 1) 70%
+  );
+}
