@@ -93,7 +93,7 @@ export const Home = () => {
       </div>
 
       {/* Cards */}
-      <div className="ml-24 mr-24 mt-12 flex gap-8 flex-wrap">
+      <div className="ml-12 md:ml-24 mt-12 flex gap-8 flex-wrap justify-center md:justify-start">
         {cards[selectedBadge]?.map(({ description, title }, index) => {
           return <Card title={title} description={description} key={index} />;
         })}
